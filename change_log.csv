@@ -1,0 +1,12 @@
+Issue,Column(s),Resolution,Affected,Validation
+Missing/unusable Age,Age,Converted text values to numeric; imputed missing/unusable ages with median age.,3 values,Median used = 26.0
+Inconsistent Sex casing/whitespace,Sex,Trimmed whitespace and standardized values to lowercase male/female.,Multiple records,Only male/female remain
+Inconsistent Embarked format,Embarked,"Trimmed spaces, uppercased values, and mapped Southampton to S.",Multiple records,Valid codes: S/C/Q
+Missing Embarked,Embarked,Filled missing embarkation code using the mode.,1 value,Mode used = S
+Missing Cabin,Cabin,Converted blank cabin values to the explicit category 'Unknown' instead of dropping rows.,17 blank/unknown values,No null cabin values remain
+Currency/text in Fare,Fare,Removed currency symbol and converted Fare to numeric.,1 value,Numeric float column
+Incorrect Pclass type/format,Pclass,Extracted numeric class from values such as '1' and '3rd'.,2 values,Integer class values
+Incorrect Survived type,Survived,Converted text numeric value to integer.,1 value,0/1 integer values
+Whitespace in Name/Ticket/Cabin,Name/Ticket/Cabin,Trimmed leading/trailing whitespace and collapsed repeated spaces.,Multiple records,Standardized text
+Exact duplicate row,All columns,Removed exact duplicate record.,1 row,0 exact duplicates
+Duplicate PassengerId,PassengerId,Removed duplicate business key while retaining the first occurrence.,1 row,0 duplicate PassengerId values

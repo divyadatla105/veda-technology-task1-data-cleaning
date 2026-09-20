@@ -1,0 +1,14 @@
+VEDA TECHNOLOGY TASK 1 — SUBMISSION CHECKLIST
+
+[ ] raw_titanic_dirty.csv uploaded
+[ ] cleaned_titanic.csv uploaded
+[ ] change_log.csv uploaded
+[ ] data_quality_report.md uploaded
+[ ] clean_titanic.py uploaded
+[ ] titanic_data_cleaning.xlsx uploaded
+[ ] requirements.txt uploaded
+[ ] README.md uploaded
+[ ] GitHub repository set to Public
+[ ] README explains objective, approach, validation and outcome
+[ ] GitHub repository link submitted through internship portal
+[ ] Completed project shared on LinkedIn
